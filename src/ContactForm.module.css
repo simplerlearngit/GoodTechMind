@@ -1,0 +1,257 @@
+.head{
+  text-align: center;
+  font-size: 48px;
+  opacity: .7;
+}
+.formContainer{
+  margin-top: 50px;
+}
+.formContainer input{
+  
+  outline: none;
+  border: none;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  border-radius: 5px;
+  box-shadow: 0px 3px 3px -2px rgba(0,0,0,0.2), 0px 3px 4px 0px rgba(0,0,0,0.14), 0px 1px 8px 0px rgba(0,0,0,0.12);
+  font-size: large;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.name{
+  width: 96%;
+  height: 75px;
+}
+.number{
+  width: 96%;
+  height: 75px;
+}
+.email{
+  width: 96%;
+  height: 75px;
+}
+.subject{
+  width: 96%;
+  height: 75px;
+}
+.nameContainer{
+  width: 50%;
+}
+.numberContainer{
+  width: 50%;
+}
+.emailContainer{
+  width: 100%;
+}
+.subjectContainer{
+  width: 100%;
+}
+.messageContainer{
+  margin-top: 60px;
+}
+.firstContainer{
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  margin-top: 60px;
+}
+.secondContainer{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 80px;
+  margin-top: 60px;
+}
+.message{
+  width: 98%;
+  height: 130px;
+  box-shadow: 0px 2px 3px -2px rgba(0,0,0,0.1);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  outline: none;
+    
+}
+.submitButton{
+  background-color: hsl(0, 100%, 50%) !important;
+  margin: 10px !important;
+}
+
+.message{
+  box-shadow: 0px 3px 3px -2px rgba(0,0,0,0.2), 0px 3px 4px 0px rgba(0,0,0,0.14), 0px 1px 8px 0px rgba(0,0,0,0.12);
+  border: none;
+}
+.enterCaptcha{
+  width: 96%;
+  height: 75px;
+}
+.messageContainer textarea{
+  font-size: 21px;
+  padding-top: 17px;
+  padding-left: 20px;
+}
+.nameIcon, .numberIcon,.mailIcon,.subjectIcon{
+  position: absolute;
+  color: #ff0f0f;
+  margin-left: -38px;
+  margin-top: 25px;
+  width: 26px;
+  height: 30px;
+}
+
+.messageIcon{
+  position: relative;
+  color: #ff0f0f;
+  padding-left: 97%;
+  top: -130px;
+  width: 26px;
+  height: 30px;
+}
+.capchtaContainer{
+  /* display: flex; */
+  align-items: center;
+  justify-items: cem;
+  width: 100%;
+}
+.captchaBox{
+  border: 1px solid;
+  height: 20px;
+  padding: 14px;
+  font-size: larger;
+  border-radius: 5px;
+  margin-right: 30px;
+  opacity: .5;
+}
+.captcha{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: 200px; */
+}
+.enterCaptcha{
+  width: 100%;
+  margin-top: 25px;
+}
+.btnContainer{
+  display: flex;
+  align-items: center !important;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px){
+  .mainInputContainer{
+    gap: 16px;
+    display: grid;
+    }
+  .firstContainer {
+    flex: auto;
+    display: grid;
+    align-items: center; 
+    /* gap: 0px;  */
+    margin-top: 0px; 
+ }
+ .firstContainer {
+  align-items: center;
+  gap: 10px;
+}
+ .formContainer input {
+   outline: none;
+   border: none;
+   background-color: #fff;
+   color: rgba(0, 0, 0, 0.87);
+   border-radius: 5px;
+   box-shadow: 0px 3px 3px -2px rgba(0,0,0,0.2), 0px 3px 4px 0px rgba(0,0,0,0.14), 0px 1px 8px 0px rgba(0,0,0,0.12);
+   font-size: medium;
+   padding-top: 3px;
+   padding-left: 10px;
+   }
+   .nameContainer {
+     width: 97%;
+   }
+   .name {
+     width: 100%;
+     height: 35px;
+ }
+ .numberContainer {
+   width: 97%;
+ }
+ .number {
+   width: 100%;
+   height: 35px;
+ }
+ .emailContainer {
+   width: 97%;
+ }
+ .email {
+   width: 100%;
+   height: 35px;
+ }
+ .subjectContainer {
+   width: 97%;
+ }
+ .subject {
+   width: 100%;
+   height: 35px;
+ }
+ .secondContainer {
+   flex: auto;
+   display: grid;
+   align-items: center; 
+   justify-content: normal;
+   gap: 10px; 
+   margin-top: 0px; 
+ }
+ .nameIcon, .numberIcon, .mailIcon, .subjectIcon {
+   position: absolute;
+   color: #ff0f0f;
+   margin-left: 85%;
+   margin-top: -7%;
+   width: 15px;
+   height: 14px;
+ }
+ .messageContainer {
+   margin-top: 10px;
+   /* display: flex;
+   position: absolute; */
+  }
+  .messageContainer textarea {
+    font-size: 17px;
+    padding-top: 2px;
+    padding-left: 10px;
+  }
+  .message {
+    width: 97%;
+    height: 85px;
+    border-radius: 4px;
+    outline: none;
+  }
+  .messageIcon {
+    padding-left: 325px;
+    top: -84px;
+    width: 15px;
+    height: 14px;
+  }
+  .capchtaContainer{
+    display: unset;
+    margin-top: 20px;
+    /* margin: 0px 10px; */
+  }
+  .captchaBox{
+    opacity: .5;
+  }
+  .captcha {
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    gap: 20px;
+  }
+  .captcha .captchaBox{
+    padding: 5px;
+    height: 20px;
+    border: 1px solid black;
+    opacity: .4;
+  }
+.enterCaptcha {
+  height: 40px;
+  margin-top: 25px;
+}
+}

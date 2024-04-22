@@ -1,0 +1,90 @@
+.container{
+  margin-top: 50px;
+}
+.numberContainer{
+  font-size: 30px;
+}
+.tittleContainer, .numberContainer{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.tittleContainer{
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 100px;
+}
+
+.projectNumber, .clientNumber, .yearNumber{
+  width: 385px;
+  height: 185px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 7px;
+  color: white;
+  background-image: radial-gradient(hsl(0, 84%, 47%), #251717);
+}
+.project, .year, .client{
+  width: 385px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+}
+
+.craft{
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lineCraft{
+  width: 300px;
+  height: 5px;
+  background-color: black;
+  border-radius: 5px;
+}
+.CraftText {
+  font-size: 30px;
+} 
+
+
+@media only screen and (max-width: 600px) {
+  .numberContainer{
+    display: unset;
+   
+  }
+  .projectNumber, .clientNumber, .yearNumber {
+    width: 90%;
+    margin: 10px;
+    border: none !important;
+    margin-left: 19px;
+
+  }
+  .project, .year, .client{
+   
+    width: 89%;
+    margin-left: 20px;
+  }
+  .lineCraft{
+    width: 0px;
+    height: 0px;
+    background-color: none;
+    border-radius: 0px;
+  }
+  .serviceContainer{
+    display: unset !important;
+  }
+
+  .CraftText {
+    font-size: 27px;
+    border-bottom: 2px solid black;
+  } 
+}

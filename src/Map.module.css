@@ -1,0 +1,36 @@
+.mapContainer{
+    margin-top: 40px;
+}
+.map{
+    border-radius: 5px !important;
+}
+.mapFooterText{
+    text-align: center;
+    opacity: .6;
+    margin-top: 10px;
+}
+iframe{
+    border: none;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .mapContainer{
+      margin-top: 30px;
+    }
+    .mapFooterText {
+      font-size: 8px;
+      margin-top: 10px;
+    }
+      .head {
+        text-align: center;
+        font-size: 23px;
+        opacity: .7;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      iframe{
+        height: 50vh;
+        border: none;
+        outline: 0px;
+      }
+}
